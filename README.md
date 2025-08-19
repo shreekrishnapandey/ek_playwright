@@ -7,6 +7,7 @@ npm install
 npx playwright install
 # EXECUTION
 npx playwright test --headed //Execution in browser UI
+
 npx playwright test tests/registration.spec.js //Execute specific file
 # GENERATE HTML REPORT
 npx playwright test --reporter=html
